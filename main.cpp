@@ -54,7 +54,7 @@ int main(){
   std::cout << "\nMEDAL\n";
   std::cout << "-----\n";
 
-  // Calculate medal
+  // Calculate and display medal
   if (minutes <= goldenMedal){
     std::cout << "Golden Medal: Did it in less than " << goldenMedal << " minutes.\n";
     std::cout << "Great job.\n\n";
